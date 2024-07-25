@@ -10,34 +10,26 @@
 </ul>
 
 <h2>Exemplo de Saída</h2>
-<p>Para um ângulo de 45 graus:</p>
-<pre>
-Digite um ângulo em graus: 45
 
-Resultados com 3 termos:
-cos(45) ≈ 0.707317
-sen(45) ≈ 0.707291
+![Imagem do WhatsApp de 2024-07-22 à(s) 20 18 51_37dafe94](https://github.com/user-attachments/assets/c6ed24cb-6620-466f-bc9d-086f674ef2bf)
 
-Resultados com 40 termos:
-cos(45) ≈ 0.707106
-sen(45) ≈ 0.707107
+<h2>Como Compilar e Executar</h2>
+<p>Para compilar e executar o programa, siga os passos abaixo:</p>
+<ol>
+    <li>Abra o terminal ou prompt de comando.</li>
+    <li>Navegue até o diretório onde os arquivos <code>Trabalho_final1.cpp</code> estão localizados.</li>
+    <li>Compile os arquivos usando o comando:
+        <pre>
+g++ Trabalho_final2.cpp -o calculos
+        </pre>
+    </li>
+    <li>Execute o programa com o comando:
+        <pre>
+./calculos
+        </pre>
+    </li>
+</ol>
 
-Resultados usando cmath:
-cos(45) = 0.707107
-sen(45) = 0.707107
-
-Erros para 3 termos:
-Erro absoluto no cosseno: 0.000211
-Erro percentual no cosseno: 0.0299%
-Erro absoluto no seno: 0.000184
-Erro percentual no seno: 0.026%
-
-Erros para 40 termos:
-Erro absoluto no cosseno: 0.000000
-Erro percentual no cosseno: 0.0000%
-Erro absoluto no seno: 0.000000
-Erro percentual no seno: 0.0000%
-</pre>
 
 <h2>Licença</h2>
 <p>Este projeto é licenciado sob os termos da licença MIT.</p>
